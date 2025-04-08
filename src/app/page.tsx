@@ -1,54 +1,36 @@
-import Link from "next/link";
+import Footer from "@/components/ui/Footer";
+import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
-    <section>
-      <section className="welcome-page h-screen text-white flex flex-col items-left p-2 justify-between">
-        <header className="">
-          <nav className="flex justify-between">
-            <div>Logo</div>
-            <div>
-              <ul className="flex gap-6">
-                <li>
-                  <Link className="forward-link" href="/tutorial">
-                    Tutorial
-                  </Link>
-                </li>
-                <li>
-                  <Link className="forward-link" href="/tutorial">
-                    Gallery
-                  </Link>
-                </li>
-                <li>
-                  <Link className="forward-link" href="/tutorial">
-                    Login
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-        <div className="flex flex-col [text-shadow:_0_4px_4px_black] w-3/6 px-6 ">
-          <h1 className="text-4xl">John Carter | Professional Photographer</h1>
-          <h1 className="text-2xl">
+    <section className="welcome-page">
+      <section className="h-screen text-white flex flex-col items-left p-2 justify-between">
+        <Navbar />
+        <div className="flex flex-col [text-shadow:_0_4px_4px_black] w-3/6 px-6 s:w-full">
+          <h1 className="text-4xl sm:text-2xl">
+            John Carter | Professional Photographer
+          </h1>
+          <h1 className="text-2xl sm:text-xl">
             {" "}
             Capturing Life’s Most Beautiful Moments{" "}
           </h1>
-          <p className="text-sm text-justify">
-            Hi, I’m John Carter, a passionate photographer based in New York.
-            With over 10 years of experience in portrait, wedding, and landscape
-            photography, I specialize in turning fleeting moments into timeless
-            memories. My journey began when I picked up my first camera at the
-            age of 15, and since then, I’ve been obsessed with light,
-            composition, and storytelling through images. I believe that every
-            photograph should evoke emotion, whether it’s the joy of a wedding
-            day, the serenity of a mountain landscape, or the raw authenticity
-            of a street portrait. My work has been featured in National
-            Geographic, Vogue, and several international exhibitions. When I’m
-            not behind the lens, you’ll find me teaching photography workshops
-            or exploring new destinations for inspiration. Let’s create
-            something beautiful together.
-          </p>
+          <div>
+            <p className="text-sm sm:text-sm ">
+              Hi, I’m John Carter, a passionate photographer based in New York.
+              With over 10 years of experience in portrait, wedding, and
+              landscape photography, I specialize in turning fleeting moments
+              into timeless memories. My journey began when I picked up my first
+              camera at the age of 15, and since then, I’ve been obsessed with
+              light, composition, and storytelling through images. I believe
+              that every photograph should evoke emotion, whether it’s the joy
+              of a wedding day, the serenity of a mountain landscape, or the raw
+              authenticity of a street portrait. My work has been featured in
+              National Geographic, Vogue, and several international exhibitions.
+              When I’m not behind the lens, you’ll find me teaching photography
+              workshops or exploring new destinations for inspiration. Let’s
+              create something beautiful together.
+            </p>
+          </div>
         </div>
         <div className="flex flex-col items-center">
           <p className="text-sm [text-shadow:_0_4px_4px_black]">Scroll Down</p>
@@ -58,12 +40,7 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
-      <section className="welcome-page h-screen text-white flex flex-col items-left p-2">
-        <header className="">
-          <nav className="flex justify-center">
-            <div>Logo</div>
-          </nav>
-        </header>
+      <section className="h-screen text-white flex flex-col items-left p-2">
         <div className="flex flex-col items-center mt-6">
           <div>
             <h1 className="text-4xl [text-shadow:_0_4px_4px_black]">Photo's</h1>
@@ -71,6 +48,7 @@ export default function Home() {
           <div></div>
         </div>
       </section>
+      <Footer />
     </section>
   );
 }
