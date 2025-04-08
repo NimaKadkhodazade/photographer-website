@@ -7,14 +7,14 @@ body {
 }
 
 .welcome-page {
-  background-image: url("../picture/background.jpg");
+  background-image: url("../../public/picture/background.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .sectionpart2 {
-  background-image: url("../picture/secondBackground.jpg");
+  background-image: url("../../public/picture/secondBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }

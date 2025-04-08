@@ -68,8 +68,7 @@ export default function Home() {
           <div>
             <h1 className="text-4xl [text-shadow:_0_4px_4px_black]">Photo's</h1>
           </div>
-          <div>
-          </div>
+          <div></div>
         </div>
       </section>
     </section>
