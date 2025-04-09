@@ -6,11 +6,11 @@ export default function Home() {
     <section className="welcome-page">
       <section className="h-screen text-white flex flex-col items-left p-2 justify-between">
         <Navbar />
-        <div className="flex flex-col [text-shadow:_0_4px_4px_black] w-3/6 px-6 s:w-full">
-          <h1 className="text-4xl sm:text-2xl">
+        <div className="flex flex-col [text-shadow:_0_4px_4px_black] lg:w-3/6 px-6 sm:w-full">
+          <h1 className="lg:text-4xl sm:text-2xl">
             John Carter | Professional Photographer
           </h1>
-          <h1 className="text-2xl sm:text-xl">
+          <h1 className="lg:text-2xl sm:text-xl ">
             {" "}
             Capturing Life’s Most Beautiful Moments{" "}
           </h1>
