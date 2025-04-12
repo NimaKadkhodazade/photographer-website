@@ -16,6 +16,7 @@ body {
 .sectionpart2 {
   background-image: url("../../public/picture/secondBackground.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -24,7 +25,7 @@ body {
   padding: 5px;
   border: 1px solid white;
   transition: all 0.5s ease-in-out;
-  box-shadow: 3px 3px 0;
+  box-shadow: 2px 2px 0;
 }
 
 .forward-link:hover {
@@ -35,10 +36,8 @@ body {
 
 .footer {
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: black;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
 }
+

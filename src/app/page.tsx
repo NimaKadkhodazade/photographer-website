@@ -3,7 +3,7 @@ import Navbar from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
-    <section className="welcome-page">
+    <section className="welcome-page h-screen">
       <section className="h-screen text-white flex flex-col items-left p-2 justify-between">
         <Navbar />
         <div className="flex flex-col [text-shadow:_0_4px_4px_black] lg:w-3/6 px-6 sm:w-full">
@@ -24,11 +24,7 @@ export default function Home() {
               light, composition, and storytelling through images. I believe
               that every photograph should evoke emotion, whether it’s the joy
               of a wedding day, the serenity of a mountain landscape, or the raw
-              authenticity of a street portrait. My work has been featured in
-              National Geographic, Vogue, and several international exhibitions.
-              When I’m not behind the lens, you’ll find me teaching photography
-              workshops or exploring new destinations for inspiration. Let’s
-              create something beautiful together.
+              authenticity of a street portrait.
             </p>
           </div>
         </div>
@@ -40,7 +36,7 @@ export default function Home() {
           ></iframe>
         </div>
       </section>
-      <section className="h-screen text-white flex flex-col items-left p-2">
+      <section className="sectionpart2 h-screen text-white flex flex-col items-left p-2">
         <div className="flex flex-col items-center mt-6">
           <div>
             <h1 className="text-4xl [text-shadow:_0_4px_4px_black]">Photo's</h1>

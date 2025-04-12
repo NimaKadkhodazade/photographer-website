@@ -15,7 +15,7 @@ export default function Navbar() {
     { href: "/awards", label: "Awards" },
     { href: "/gallery", label: "Gallery" },
     { href: "/courses", label: "Courses" },
-    { href: "/register", label: <User strokeWidth={2} /> },
+    { href: "/auth", label: <User strokeWidth={2} /> },
   ];
 
   return (

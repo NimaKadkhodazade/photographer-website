@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <section className="footer [text-shadow:_0_4px_4px_black]">
+    <footer className="footer [text-shadow:_0_4px_4px_black]">
       <div className="text-white flex justify-around pt-6">
         <div>© NimaDev</div>
         <div>LOGO</div>
@@ -26,6 +26,6 @@ export default function Footer() {
         <h3>ENG</h3>
         <h3>PER</h3>
       </div>
-    </section>
+    </footer>
   );
 }
